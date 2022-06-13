@@ -1,0 +1,13 @@
+name: "punks"
+class: "rogue"
+inv: []
+skills: []
+gold: 3200
+level: 15
+xp: 100
+bounty: {
+  'Moudia': 3
+}
+flags: {
+  'intro': True
+}

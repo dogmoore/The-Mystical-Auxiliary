@@ -1,0 +1,8 @@
+name
+class
+inv
+skills
+gold
+level
+xp
+flags

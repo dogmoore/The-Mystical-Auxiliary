@@ -1,0 +1,10 @@
+novice mage robes
+novice mage boots
+leather armor chest
+leather armor helm
+leather armor leggings
+leather armor boots
+plate armor chest
+plate armor helm
+plate armor leggings
+plate armor boots

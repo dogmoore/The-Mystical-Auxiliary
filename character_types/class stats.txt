@@ -1,0 +1,49 @@
+                level/total max/base max
+magic:          x/1000/150
+strength:       x/1000/150
+speed:          x/1000/150
+charisma:       x/1000/150
+stealth:        x/1000/150
+
+mage(unspecialized)
+    magic:      150
+    strength:   50
+    speed:      70
+    charisma:   80
+    stealth:    40
+swordsman
+    magic:      10
+    strength:   150
+    speed:      70
+    charisma:   70
+    stealth:    20
+bowman
+    magic:      80
+    strength:   40
+    speed:      60
+    charisma:   60
+    stealth:    100
+rogue
+    magic:      50
+    strength:   80
+    speed:      100
+    charisma:   150
+    stealth:    150
+thief
+    magic:      30
+    strength:   60
+    speed:      70
+    charisma:   100
+    stealth:    150
+assassin
+    magic:      20
+    strength:   50
+    speed:      150
+    charisma:   80
+    stealth:    150
+untrained
+    magic:      10
+    strength:   10
+    speed:      10
+    charisma:   10
+    stealth:    10

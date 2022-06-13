@@ -1,0 +1,15 @@
+mage
+swordsman
+    long sword(two handed)
+    sword + shield
+    sword
+    dual swords
+bowman
+    long bow
+    short bow
+rogue
+thief
+assassin
+    bow
+    dagger
+untrained

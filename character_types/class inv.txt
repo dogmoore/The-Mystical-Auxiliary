@@ -1,0 +1,43 @@
+mage(unspecialized)
+    skills:
+        magic bolt
+        magic shield
+    inv:
+        mage robes
+        mage boots
+        Grimoire    
+swordsman(unspecialized)
+    skills:
+        block
+        dodge
+        heavy swing
+        thrust weapon
+    inv:
+        plate armor
+        sword
+        metal shield
+bowman(unspecialized)
+    skills:
+        volley
+        headshot(40% success)
+        shoot arrow
+        warning shot
+    inv:
+        leather armor
+        leather boots
+        hunting bow
+        20x arrows
+        quiver(20)
+rogue
+thief
+assassin
+untrained
+
+default
+    skills:
+        swing weapon
+        hide
+        run
+    inv:
+        dagger
+        200 gold

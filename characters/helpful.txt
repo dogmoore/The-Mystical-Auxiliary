@@ -1,0 +1,5 @@
+narrator:
+    Ernas(mage)
+
+major characters:
+    Ernas(mage)

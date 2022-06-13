@@ -1,0 +1,9 @@
+read Aazari(magic)
+run from battle
+hide
+dodge
+sneak
+enchant
+block
+heavy attack
+light attack

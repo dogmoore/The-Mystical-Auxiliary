@@ -1,0 +1,8 @@
+starter sword
+starter dagger
+starter hunting bow
+starter longbow
+arrow
+poison arrow
+flaming arrow
+enchanted arrow

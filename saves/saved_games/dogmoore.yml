@@ -1,0 +1,13 @@
+name: "dogmoore"
+class: "mage"
+inv: []
+skills: []
+gold: 200
+level: 1
+xp: 0
+bounty: {
+  'Moudia': 0
+}
+flags: {
+  'intro': True
+}

@@ -1,0 +1,16 @@
+mage:
+    trainie(base)
+    necromancer
+    flame
+    ice
+    weather
+    plants(rename)
+swordsman:
+    trainie(base)
+    knight
+    paladin
+    guard
+bowman:
+    trainie(base)
+    hunter
+    
