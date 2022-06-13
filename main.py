@@ -4,7 +4,7 @@ import os
 from character_types.characterClass import *
 from saves.loadSaves import load
 from user import MainCharacter
-from magic.spells import cast
+from userinput import check
 
 # TODO add color
 # TODO add a confirmation when selecting class along with a short description
@@ -52,3 +52,8 @@ if characterType.lower() == 'mage':
     print('[A Voice] My name is Ernas and like you I am a Mage for the Moudia Empire')
 else:
     print('[A Voice] My name is Ernas and I am a Mage for the Moudia Empire')
+
+    #TODO add more story here
+
+    choice = input(f"Now what will you do {charName}")
+    check('', choice) # needs testing

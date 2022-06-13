@@ -1,0 +1,19 @@
+raise undead
+fireball `
+meteor shower`
+magic bolt`
+magic shield
+freeze
+ice wall
+raise snow/ice guardians
+lightning`
+fog(confuse enemies?)
+raise plant guardians
+poison
+ice bolt`
+convert tundra
+convert storm
+convert volcano
+raise greater undead
+raise superior undead
+minor healing(paladin only?)

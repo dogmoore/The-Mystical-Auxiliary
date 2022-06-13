@@ -8,7 +8,7 @@ mage:
 swordsman:
     trainie(base)
     knight
-    paladin
+    paladin(holy)
     guard
 bowman:
     trainie(base)

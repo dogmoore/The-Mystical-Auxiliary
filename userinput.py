@@ -11,3 +11,5 @@ class userInput():
         if user.spells.includes(self.input):
             if cast.magicBolt(chance=True):
                 return cast.magicBolt(damage=True) # FIXME add crit return
+        if self.input.startsWith('travel'):
+            return print('TRAVEL')

@@ -1,5 +1,0 @@
-raise undead
-fireball
-meteor shower
-magic bolt
-magic shield
