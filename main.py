@@ -4,21 +4,23 @@ import os
 from character_types.characterClass import *
 from saves.loadSaves import load
 from user import MainCharacter
+from magic.spells import cast
 
 # TODO add color
 # TODO add a confirmation when selecting class along with a short description
 # TODO finish building out character classes
 # TODO add more to Afari.txt for world building
 # TODO flags for saving
+# TODO enemy health and list
+# TODO ally health and list
 # TODO saving points(beds?)
+# TODO use PyQT for GUI
 
 # FLAGS
 # flag 1: intro
 starterTownName = 'Fallburn'
 
 validClasses = ['mage', 'swordsman', 'bowman', 'rogue', 'thief', 'assassin', 'untrained']
-
-print(load.gameSelect)
 
 charName = input('What is your name young adventurer? ')
 print(f'[A Voice] Welcome young {charName} to the world of Afari. There are many kingdoms that call this continent home.')

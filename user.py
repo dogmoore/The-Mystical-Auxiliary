@@ -21,3 +21,10 @@ class MainCharacter:
         elif subtract > 0:
             money -= subtract
         return money
+
+    def spells(self):
+        if self.type == 'mage':
+            spells =["magic bolt", "magic shield"]
+        else:
+            spells = []
+        return spells
