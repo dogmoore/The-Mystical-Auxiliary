@@ -2,16 +2,16 @@ from character_types import *
 
 
 class MainCharacter:
-    def __init__(self, name, type, gender):
+    def __init__(self, name, class_type, gender):
         self.name = name
-        self.type = type
+        self.class_type = class_type
         self.gender = gender
 
     def name(self):
         return self.name()
 
-    def type(self):
-        return self.type()
+    def classType(self):
+        return self.class_type()
 
     @staticmethod
     def gold(add=0, subtract=0):
@@ -23,8 +23,8 @@ class MainCharacter:
         return money
 
     def spells(self):
-        if self.type == 'mage':
-            spells =["magic bolt", "magic shield"]
+        if self.class_type == 'mage':
+            spells = ["magic bolt", "magic shield"]
         else:
             spells = []
         return spells

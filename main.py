@@ -1,6 +1,8 @@
 import yaml
 import os
+import sys
 
+from PyQt6.QtWidgets import QApplication, QWidget
 from character_types.characterClass import *
 from saves.loadSaves import load
 from user import MainCharacter
@@ -30,7 +32,7 @@ characterType = input('[A Voice] There are 7 classes or profession for you to ch
 
 hasChosen = False # checks for valid class type
 if characterType.lower() in validClasses:
-        hasChosen = True
+    hasChosen = True
 while(hasChosen == False): 
     print('[A Voice] So terribly sorry. The world of Afari doesn\'t recognize that as a profession')
     characterType = input('Please pick either Mage, Swordsman, Bowman, Rogue, Thief, Assassin, or an Untrained: ')
@@ -41,7 +43,7 @@ gender = input(f'[A Voice] ah a young {characterType}! Now for your gender? ')
 
 hasChosen = False # checks for valid gender type
 if gender.lower() == 'male' or gender.lower() == 'female':
-        hasChosen = True
+    hasChosen = True
 while(hasChosen == False):
     print('[A Voice] So terribly sorry. The world of Afari ins\'t as advanced as the one you come from')
     gender = input('Please choose either male or female: ')

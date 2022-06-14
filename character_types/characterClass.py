@@ -1,4 +1,4 @@
-class Mage():
+class Mage:
     def __init__(self):
         self.className = 'Novice Mage'
 
@@ -22,19 +22,20 @@ class Mage():
 
     @staticmethod
     def stats(stat):
-        baseStats = {
+        base_stats = {
             "magic": 150,
             "strength": 50,
             "speed": 70,
             "charisma": 80,
             "stealth": 40
         }
-        return baseStats[stat]
+        return base_stats[stat]
 
-class Swordsman():
+
+class Swordsman:
     def __init__(self):
         self.className = 'Novice Swordsman'
-    
+
     def className(self):
         return self.className
 
@@ -50,31 +51,36 @@ class Swordsman():
 
     @staticmethod
     def stats(stat):
-        baseStats = {
+        base_stats = {
             "magic": 10,
             "strength": 150,
             "speed": 70,
             "charisma": 70,
             "stealth": 20
         }
-        return baseStats[stat]
+        return base_stats[stat]
 
-class Bowman():
+
+class Bowman:
     def __init__(self):
         self.className = 'Bowman'
 
-class Rogue():
+
+class Rogue:
     def __init__(self):
         self.className = 'Rogue'
 
-class Theif():
+
+class Theif:
     def __init__(self):
         self.className = 'Theif'
 
-class Assassin():
+
+class Assassin:
     def __init__(self):
         self.className = 'Assassin'
 
-class Untrained():
+
+class Untrained:
     def __init__(self):
         self.className = 'Untrained'

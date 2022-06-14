@@ -1,15 +1,14 @@
 # FIXME how games are being loaded
 
 
-class load():
+class Load:
     def __init__(self):
         filePath = 'saved_games/'
-        
 
     @staticmethod
     def gameSelect():
-        savedGames = []
-        return savedGames
+        saved_games = []
+        return saved_games
 
 #         saves = []
 
