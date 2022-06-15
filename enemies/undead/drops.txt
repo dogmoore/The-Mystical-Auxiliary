@@ -1,0 +1,11 @@
+gold
+health potion
+sword
+bow
+dagger
+clothes/armor
+scrap paper(spells?)
+bones
+vampire fangs
+vampire wings
+rotting hand
