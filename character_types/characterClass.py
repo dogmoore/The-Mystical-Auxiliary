@@ -7,8 +7,9 @@ class Mage:
 
     @staticmethod
     def description():
-        desc = 'The Mage class in entrusted with protecting the lands they live on from mystical threats that no one can foresee\nstats:\npowerful in magic\nfairly weak physically\ndecent speed\nfantastic people person\nnot very stealthy'
-        return desc
+        desc = 'The Mage class in entrusted with protecting the lands they live on from mystical threats that no one can foresee.'
+        stat = 'stats:\npowerful in magic\nfairly weak physically\ndecent speed\nfantastic people person\nnot very stealthy'
+        return desc + stat
 
     @staticmethod
     def inv(selection):
@@ -40,6 +41,12 @@ class Swordsman:
         return self.className
 
     @staticmethod
+    def desc():
+        desc = 'Swordsmen are the protectors of where they live whether it be a small village or the kingdom capital. A few go on to join the Church and become paladins or join the Royal Guard and become Knights or Guards.'
+        stat = 'stats:\nWeak in magicka.\nvery strong\ndecent speed\ndecent people person\nnot very stealthy'
+        return desc + stat
+
+    @staticmethod
     def inv(selection):
         inv = ["Plate Armor", "sword", "metal shield", "dagger"]
         return inv[selection]
@@ -65,15 +72,40 @@ class Bowman:
     def __init__(self):
         self.className = 'Bowman'
 
+    def ClassName(self):
+        return self.className
+
+    @staticmethod
+    def desc():
+        desc = ''
+        stat = ''
+        return desc + stat
+
+    @staticmethod
+    def inv():
+        inv = []
+        return inv
+
+    @staticmethod
+    def skills():
+        skills = []
+        return skills
+
+    @staticmethod
+    def stats():
+        base_stats = {
+
+        }
+        return base_stats
 
 class Rogue:
     def __init__(self):
         self.className = 'Rogue'
 
 
-class Theif:
+class Thief:
     def __init__(self):
-        self.className = 'Theif'
+        self.className = 'Thief'
 
 
 class Assassin:
